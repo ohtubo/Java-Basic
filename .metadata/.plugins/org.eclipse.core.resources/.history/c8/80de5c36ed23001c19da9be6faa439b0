@@ -1,0 +1,13 @@
+
+public class Chapter04 {
+	
+	public static void main(String[] args) {
+		String my_name = "ootubo";
+		my_name = "明日世界が滅んでも私はリンゴの木を植える";
+		
+		System.out.println(my_name);
+		
+		final int ruc_num = 2;
+		System.out.println(ruc_num);
+	}
+}
