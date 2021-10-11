@@ -1,0 +1,20 @@
+package practice;
+
+public class Car {
+	private int distance;
+	private double memory;
+	
+	public Car() {
+		distance = 20;
+		memory = 53.4;
+	}
+	
+    public int getDistance() {
+        return distance;
+    }
+
+    public double getMemory() {
+        return memory;
+    }
+	
+}

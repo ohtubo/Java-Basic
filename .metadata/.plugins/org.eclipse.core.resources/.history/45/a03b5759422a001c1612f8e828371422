@@ -1,0 +1,26 @@
+package practice;
+
+public class Car {
+	private int fuelCost;
+	private double fuelAmount;
+    // コンストラクタを作成
+	public Car() {
+		fuelCost = 20;
+		fuelAmount = 53.4;
+	}
+	
+
+    // moveメソッド
+    // ・"xx km 走ります"を出力
+    // ・残量を計算
+
+    // fuelAmountを取得するメソッドを作成
+    public void instanceMethodPrint() {
+       System.out.println(fuelCost + "km走ります");
+    }
+
+    public double getFuelAmount() {
+        return fuelAmount;
+    }
+	
+}
